@@ -1,0 +1,15 @@
+.questionText {
+  margin-bottom: 2rem;
+}
+
+.optionButton {
+  display: block;              /* 버튼을 한 줄 전체에 표시 (줄 바꿈됨) */
+  width: 20rem;                /* 버튼 너비 설정 (20rem = 대략 320px 정도) */
+  margin: 1rem auto;           /* 상하 여백 1rem, 좌우는 자동 정렬 (가운데 정렬) */
+  height: 5rem;                /* 버튼 높이 */
+  border-radius: 0.5rem;       /* 버튼 모서리를 둥글게 */
+  cursor: pointer;            /* 마우스 오버 시 손가락 포인터 표시 */
+  font-size: 1.1rem;          /* 글자 크기 약간 크게 */
+  border: 2px solid brown;    /* 테두리 색상은 갈색, 두께는 2px */
+  background-color: white;    /* 배경색은 흰색 */
+}
