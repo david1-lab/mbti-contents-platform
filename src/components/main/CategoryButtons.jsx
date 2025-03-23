@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import styles from "./CategoryButtons.module.css";
+import styles from "./CategoryBtns.module.css";
 
 function CategoryButtons() {
   const [searchParams] = useSearchParams();
