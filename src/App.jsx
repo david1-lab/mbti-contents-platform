@@ -11,6 +11,7 @@ function App() {
     <Routes>
       {/*Main Thumbnail List Page*/ }
       <Route path="/" element={<Main />} />
+      <Route path="/personalColor" element={<Test />} />
       {/*Test Intro-Quiz-Loading Page*/}
       <Route path="/test/:testParam" element={<Test />} /> 
         {/*Test Result Page*/}

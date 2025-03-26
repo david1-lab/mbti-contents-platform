@@ -1,3 +1,6 @@
+//import { eventSenderGA } from "../../../tools/tools";
+
+
 export function arrayShuffler(array) {
   let currentIndex = array.length,
       temporaryValue,
@@ -14,3 +17,9 @@ export function arrayShuffler(array) {
 
   return array;
 }
+
+// tools.js에 넣기
+export const eventSenderGA = (...args) => {
+  console.log("GA Event:", ...args);
+};
+

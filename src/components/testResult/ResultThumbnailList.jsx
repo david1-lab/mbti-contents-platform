@@ -20,8 +20,9 @@ const ResultThumbnailList = ({ testParam }) => {
                 alt={item?.info?.mainTitle}
               />
             </Link>
-            {idx % 2 === 0 && <CoupangDynamicBanner unit={"resultBanner"} />}
-            {idx % 2 === 0 && <AdsenseUnit slot={"4068657427"} />}
+            {/* {idx % 2 === 0 && <CoupangDynamicBanner unit={"resultBanner"} />} */}
+            {/* {idx % 2 === 0 && <AdsenseUnit slot={"4068657427"} />} */}
+
           </div>
         ))}
     </div>

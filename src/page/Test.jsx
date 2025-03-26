@@ -32,3 +32,4 @@ function Test() {
 export default Test;
 
 //root/personalColor/result/ENFP
+

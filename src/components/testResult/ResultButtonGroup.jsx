@@ -4,7 +4,8 @@ import { LinkOutlined, RedoOutlined, HomeOutlined } from "@ant-design/icons";
 import { base_url } from "../../App";
 import { useNavigate } from "react-router-dom";
 import styles from "./resultButtonGroup.module.css";
-//import { eventSenderGA } from "../../tools/tools";
+import { eventSenderGA } from "@tools/tools";
+
 
 const ResultButtonGroup = ({ testParam, resultParam, lang }) => {
   const foreignTextsObject = {
@@ -33,7 +34,7 @@ const ResultButtonGroup = ({ testParam, resultParam, lang }) => {
 
   const onClickRedoButton = () => {
     eventSenderGA("Paging", "Copy Re-Do Button", "Result");
-    navigate(`/${testParam}`);
+    navigate(`/test/${testParam}`);
   };
 
   const onClickGoHomeButton = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-//import AffiliateButton from "./AffiliateButton";
-//import styles from "./affiliateButton.module.css";
-//import Cookies from "js-cookie";
+import AffiliateButton from "./AffiliateButton";
+import styles from "./affiliateButton.module.css";
+import Cookies from "js-cookie";
 
 const TestResultRenderer = ({ renderResultInfo, lang }) => {
   const foreignTextsObject = {
